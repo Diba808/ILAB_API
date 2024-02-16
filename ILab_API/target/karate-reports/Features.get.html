@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"ba58b9cd-5647-4b2a-bf66-6b64fca6936e",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>Features.get</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-02-16 03:31:02 pm</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:10]"><span>[1:10]</span> <span>Getting dog breed mastiff</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">Features/get.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">GET API DEMO</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:10]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">tag1</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:10]</span>
+                <span class="scenario-name">Getting dog breed mastiff</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1610</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:10]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:10]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url &#39;https://dog.ceo/api&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:10]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure headers = { Accept : &#39;application/json&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">75</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/breeds/list/all&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1443</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">15:31:01.091 request:
+1 &gt; GET https://dog.ceo/api/breeds/list/all
+1 &gt; Accept: application/json
+1 &gt; Host: dog.ceo
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/17.0.8.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+15:31:02.035 response time in milliseconds: 937
+1 &lt; 200
+1 &lt; Date: Fri, 16 Feb 2024 13:31:01 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: PHP/8.1.25
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Via: 1.1 varnish (Varnish/6.3), 1.1 varnish (Varnish/6.3)
+1 &lt; Cache-Control: max-age=1800
+1 &lt; X-Cache-Age: 3232
+1 &lt; X-Cache-Hits: 4895
+1 &lt; X-Cache: HIT
+1 &lt; Accept-Ranges: bytes
+1 &lt; Age: 0
+1 &lt; Vary: Accept-Encoding
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=u1VDbinGjiF%2FYESNcgk4yk8qf1IoWVSgv0Qf353XWAnAgARCVdYP8OufJs3kvRsM%2Bn9G%2Fwp5f6efrK%2BOuNaCyeJfWRt2%2BFXNFf%2BFjZ21Ub18CJc0B%2BdJwvE%2B&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 85662605dd507779-LHR
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400
+{&quot;message&quot;:{&quot;affenpinscher&quot;:[],&quot;african&quot;:[],&quot;airedale&quot;:[],&quot;akita&quot;:[],&quot;appenzeller&quot;:[],&quot;australian&quot;:[&quot;shepherd&quot;],&quot;basenji&quot;:[],&quot;beagle&quot;:[],&quot;bluetick&quot;:[],&quot;borzoi&quot;:[],&quot;bouvier&quot;:[],&quot;boxer&quot;:[],&quot;brabancon&quot;:[],&quot;briard&quot;:[],&quot;buhund&quot;:[&quot;norwegian&quot;],&quot;bulldog&quot;:[&quot;boston&quot;,&quot;english&quot;,&quot;french&quot;],&quot;bullterrier&quot;:[&quot;staffordshire&quot;],&quot;cattledog&quot;:[&quot;australian&quot;],&quot;chihuahua&quot;:[],&quot;chow&quot;:[],&quot;clumber&quot;:[],&quot;cockapoo&quot;:[],&quot;collie&quot;:[&quot;border&quot;],&quot;coonhound&quot;:[],&quot;corgi&quot;:[&quot;cardigan&quot;],&quot;cotondetulear&quot;:[],&quot;dachshund&quot;:[],&quot;dalmatian&quot;:[],&quot;dane&quot;:[&quot;great&quot;],&quot;deerhound&quot;:[&quot;scottish&quot;],&quot;dhole&quot;:[],&quot;dingo&quot;:[],&quot;doberman&quot;:[],&quot;elkhound&quot;:[&quot;norwegian&quot;],&quot;entlebucher&quot;:[],&quot;eskimo&quot;:[],&quot;finnish&quot;:[&quot;lapphund&quot;],&quot;frise&quot;:[&quot;bichon&quot;],&quot;germanshepherd&quot;:[],&quot;greyhound&quot;:[&quot;italian&quot;],&quot;groenendael&quot;:[],&quot;havanese&quot;:[],&quot;hound&quot;:[&quot;afghan&quot;,&quot;basset&quot;,&quot;blood&quot;,&quot;english&quot;,&quot;ibizan&quot;,&quot;plott&quot;,&quot;walker&quot;],&quot;husky&quot;:[],&quot;keeshond&quot;:[],&quot;kelpie&quot;:[],&quot;komondor&quot;:[],&quot;kuvasz&quot;:[],&quot;labradoodle&quot;:[],&quot;labrador&quot;:[],&quot;leonberg&quot;:[],&quot;lhasa&quot;:[],&quot;malamute&quot;:[],&quot;malinois&quot;:[],&quot;maltese&quot;:[],&quot;mastiff&quot;:[&quot;bull&quot;,&quot;english&quot;,&quot;tibetan&quot;],&quot;mexicanhairless&quot;:[],&quot;mix&quot;:[],&quot;mountain&quot;:[&quot;bernese&quot;,&quot;swiss&quot;],&quot;newfoundland&quot;:[],&quot;otterhound&quot;:[],&quot;ovcharka&quot;:[&quot;caucasian&quot;],&quot;papillon&quot;:[],&quot;pekinese&quot;:[],&quot;pembroke&quot;:[],&quot;pinscher&quot;:[&quot;miniature&quot;],&quot;pitbull&quot;:[],&quot;pointer&quot;:[&quot;german&quot;,&quot;germanlonghair&quot;],&quot;pomeranian&quot;:[],&quot;poodle&quot;:[&quot;medium&quot;,&quot;miniature&quot;,&quot;standard&quot;,&quot;toy&quot;],&quot;pug&quot;:[],&quot;puggle&quot;:[],&quot;pyrenees&quot;:[],&quot;redbone&quot;:[],&quot;retriever&quot;:[&quot;chesapeake&quot;,&quot;curly&quot;,&quot;flatcoated&quot;,&quot;golden&quot;],&quot;ridgeback&quot;:[&quot;rhodesian&quot;],&quot;rottweiler&quot;:[],&quot;saluki&quot;:[],&quot;samoyed&quot;:[],&quot;schipperke&quot;:[],&quot;schnauzer&quot;:[&quot;giant&quot;,&quot;miniature&quot;],&quot;segugio&quot;:[&quot;italian&quot;],&quot;setter&quot;:[&quot;english&quot;,&quot;gordon&quot;,&quot;irish&quot;],&quot;sharpei&quot;:[],&quot;sheepdog&quot;:[&quot;english&quot;,&quot;shetland&quot;],&quot;shiba&quot;:[],&quot;shihtzu&quot;:[],&quot;spaniel&quot;:[&quot;blenheim&quot;,&quot;brittany&quot;,&quot;cocker&quot;,&quot;irish&quot;,&quot;japanese&quot;,&quot;sussex&quot;,&quot;welsh&quot;],&quot;spitz&quot;:[&quot;japanese&quot;],&quot;springer&quot;:[&quot;english&quot;],&quot;stbernard&quot;:[],&quot;terrier&quot;:[&quot;american&quot;,&quot;australian&quot;,&quot;bedlington&quot;,&quot;border&quot;,&quot;cairn&quot;,&quot;dandie&quot;,&quot;fox&quot;,&quot;irish&quot;,&quot;kerryblue&quot;,&quot;lakeland&quot;,&quot;norfolk&quot;,&quot;norwich&quot;,&quot;patterdale&quot;,&quot;russell&quot;,&quot;scottish&quot;,&quot;sealyham&quot;,&quot;silky&quot;,&quot;tibetan&quot;,&quot;toy&quot;,&quot;welsh&quot;,&quot;westhighland&quot;,&quot;wheaten&quot;,&quot;yorkshire&quot;],&quot;tervuren&quot;:[],&quot;vizsla&quot;:[],&quot;waterdog&quot;:[&quot;spanish&quot;],&quot;weimaraner&quot;:[],&quot;whippet&quot;:[],&quot;wolfhound&quot;:[&quot;irish&quot;]},&quot;status&quot;:&quot;success&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.message.mastiff[1] == &quot;english&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">50</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print karate.get(&#39;$response[*].mastiff[1]&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">33</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">15:31:02.129 [print] [
+  &quot;english&quot;
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.16">15:31:02.136 [print] {
+  &quot;message&quot;: {
+    &quot;affenpinscher&quot;: [
+    ],
+    &quot;african&quot;: [
+    ],
+    &quot;airedale&quot;: [
+    ],
+    &quot;akita&quot;: [
+    ],
+    &quot;appenzeller&quot;: [
+    ],
+    &quot;australian&quot;: [
+      &quot;shepherd&quot;
+    ],
+    &quot;basenji&quot;: [
+    ],
+    &quot;beagle&quot;: [
+    ],
+    &quot;bluetick&quot;: [
+    ],
+    &quot;borzoi&quot;: [
+    ],
+    &quot;bouvier&quot;: [
+    ],
+    &quot;boxer&quot;: [
+    ],
+    &quot;brabancon&quot;: [
+    ],
+    &quot;briard&quot;: [
+    ],
+    &quot;buhund&quot;: [
+      &quot;norwegian&quot;
+    ],
+    &quot;bulldog&quot;: [
+      &quot;boston&quot;,
+      &quot;english&quot;,
+      &quot;french&quot;
+    ],
+    &quot;bullterrier&quot;: [
+      &quot;staffordshire&quot;
+    ],
+    &quot;cattledog&quot;: [
+      &quot;australian&quot;
+    ],
+    &quot;chihuahua&quot;: [
+    ],
+    &quot;chow&quot;: [
+    ],
+    &quot;clumber&quot;: [
+    ],
+    &quot;cockapoo&quot;: [
+    ],
+    &quot;collie&quot;: [
+      &quot;border&quot;
+    ],
+    &quot;coonhound&quot;: [
+    ],
+    &quot;corgi&quot;: [
+      &quot;cardigan&quot;
+    ],
+    &quot;cotondetulear&quot;: [
+    ],
+    &quot;dachshund&quot;: [
+    ],
+    &quot;dalmatian&quot;: [
+    ],
+    &quot;dane&quot;: [
+      &quot;great&quot;
+    ],
+    &quot;deerhound&quot;: [
+      &quot;scottish&quot;
+    ],
+    &quot;dhole&quot;: [
+    ],
+    &quot;dingo&quot;: [
+    ],
+    &quot;doberman&quot;: [
+    ],
+    &quot;elkhound&quot;: [
+      &quot;norwegian&quot;
+    ],
+    &quot;entlebucher&quot;: [
+    ],
+    &quot;eskimo&quot;: [
+    ],
+    &quot;finnish&quot;: [
+      &quot;lapphund&quot;
+    ],
+    &quot;frise&quot;: [
+      &quot;bichon&quot;
+    ],
+    &quot;germanshepherd&quot;: [
+    ],
+    &quot;greyhound&quot;: [
+      &quot;italian&quot;
+    ],
+    &quot;groenendael&quot;: [
+    ],
+    &quot;havanese&quot;: [
+    ],
+    &quot;hound&quot;: [
+      &quot;afghan&quot;,
+      &quot;basset&quot;,
+      &quot;blood&quot;,
+      &quot;english&quot;,
+      &quot;ibizan&quot;,
+      &quot;plott&quot;,
+      &quot;walker&quot;
+    ],
+    &quot;husky&quot;: [
+    ],
+    &quot;keeshond&quot;: [
+    ],
+    &quot;kelpie&quot;: [
+    ],
+    &quot;komondor&quot;: [
+    ],
+    &quot;kuvasz&quot;: [
+    ],
+    &quot;labradoodle&quot;: [
+    ],
+    &quot;labrador&quot;: [
+    ],
+    &quot;leonberg&quot;: [
+    ],
+    &quot;lhasa&quot;: [
+    ],
+    &quot;malamute&quot;: [
+    ],
+    &quot;malinois&quot;: [
+    ],
+    &quot;maltese&quot;: [
+    ],
+    &quot;mastiff&quot;: [
+      &quot;bull&quot;,
+      &quot;english&quot;,
+      &quot;tibetan&quot;
+    ],
+    &quot;mexicanhairless&quot;: [
+    ],
+    &quot;mix&quot;: [
+    ],
+    &quot;mountain&quot;: [
+      &quot;bernese&quot;,
+      &quot;swiss&quot;
+    ],
+    &quot;newfoundland&quot;: [
+    ],
+    &quot;otterhound&quot;: [
+    ],
+    &quot;ovcharka&quot;: [
+      &quot;caucasian&quot;
+    ],
+    &quot;papillon&quot;: [
+    ],
+    &quot;pekinese&quot;: [
+    ],
+    &quot;pembroke&quot;: [
+    ],
+    &quot;pinscher&quot;: [
+      &quot;miniature&quot;
+    ],
+    &quot;pitbull&quot;: [
+    ],
+    &quot;pointer&quot;: [
+      &quot;german&quot;,
+      &quot;germanlonghair&quot;
+    ],
+    &quot;pomeranian&quot;: [
+    ],
+    &quot;poodle&quot;: [
+      &quot;medium&quot;,
+      &quot;miniature&quot;,
+      &quot;standard&quot;,
+      &quot;toy&quot;
+    ],
+    &quot;pug&quot;: [
+    ],
+    &quot;puggle&quot;: [
+    ],
+    &quot;pyrenees&quot;: [
+    ],
+    &quot;redbone&quot;: [
+    ],
+    &quot;retriever&quot;: [
+      &quot;chesapeake&quot;,
+      &quot;curly&quot;,
+      &quot;flatcoated&quot;,
+      &quot;golden&quot;
+    ],
+    &quot;ridgeback&quot;: [
+      &quot;rhodesian&quot;
+    ],
+    &quot;rottweiler&quot;: [
+    ],
+    &quot;saluki&quot;: [
+    ],
+    &quot;samoyed&quot;: [
+    ],
+    &quot;schipperke&quot;: [
+    ],
+    &quot;schnauzer&quot;: [
+      &quot;giant&quot;,
+      &quot;miniature&quot;
+    ],
+    &quot;segugio&quot;: [
+      &quot;italian&quot;
+    ],
+    &quot;setter&quot;: [
+      &quot;english&quot;,
+      &quot;gordon&quot;,
+      &quot;irish&quot;
+    ],
+    &quot;sharpei&quot;: [
+    ],
+    &quot;sheepdog&quot;: [
+      &quot;english&quot;,
+      &quot;shetland&quot;
+    ],
+    &quot;shiba&quot;: [
+    ],
+    &quot;shihtzu&quot;: [
+    ],
+    &quot;spaniel&quot;: [
+      &quot;blenheim&quot;,
+      &quot;brittany&quot;,
+      &quot;cocker&quot;,
+      &quot;irish&quot;,
+      &quot;japanese&quot;,
+      &quot;sussex&quot;,
+      &quot;welsh&quot;
+    ],
+    &quot;spitz&quot;: [
+      &quot;japanese&quot;
+    ],
+    &quot;springer&quot;: [
+      &quot;english&quot;
+    ],
+    &quot;stbernard&quot;: [
+    ],
+    &quot;terrier&quot;: [
+      &quot;american&quot;,
+      &quot;australian&quot;,
+      &quot;bedlington&quot;,
+      &quot;border&quot;,
+      &quot;cairn&quot;,
+      &quot;dandie&quot;,
+      &quot;fox&quot;,
+      &quot;irish&quot;,
+      &quot;kerryblue&quot;,
+      &quot;lakeland&quot;,
+      &quot;norfolk&quot;,
+      &quot;norwich&quot;,
+      &quot;patterdale&quot;,
+      &quot;russell&quot;,
+      &quot;scottish&quot;,
+      &quot;sealyham&quot;,
+      &quot;silky&quot;,
+      &quot;tibetan&quot;,
+      &quot;toy&quot;,
+      &quot;welsh&quot;,
+      &quot;westhighland&quot;,
+      &quot;wheaten&quot;,
+      &quot;yorkshire&quot;
+    ],
+    &quot;tervuren&quot;: [
+    ],
+    &quot;vizsla&quot;: [
+    ],
+    &quot;waterdog&quot;: [
+      &quot;spanish&quot;
+    ],
+    &quot;weimaraner&quot;: [
+    ],
+    &quot;whippet&quot;: [
+    ],
+    &quot;wolfhound&quot;: [
+      &quot;irish&quot;
+    ]
+  },
+  &quot;status&quot;: &quot;success&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

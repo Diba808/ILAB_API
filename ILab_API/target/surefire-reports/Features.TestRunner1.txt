@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: Features.TestRunner1
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 8.026 s <<< FAILURE! - in Features.TestRunner1
+[Features/get] GET API DEMO.[1:10] Getting dog breed mastiff  Time elapsed: 1.815 s  <<< ERROR!
+com.intuit.karate.KarateException: 
+status code was: 404, expected: 200, response time in milliseconds: 1100, url: https://dog.ceo/dog-api/breeds/list/all, response: 
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+</body></html>
+
+classpath:Features/get.feature:13
+	at <feature>.: Then status 200 (classpath:Features/get.feature:13:13)
+
